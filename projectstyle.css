@@ -197,7 +197,7 @@ nav{
     .nav-list{
         flex-direction: column;
         align-items: center;
-        padding: 2rem 0 ;
+        padding: 1rem 0 ;
     }
     .nav-item{
         margin: 2rem 0;
@@ -299,7 +299,7 @@ nav{
     position: absolute;
     padding: 15px;
     cursor: pointer;
-    top: 155%;
+    top: 150%;
     background-color: whitesmoke;
 }
 .next{
@@ -508,5 +508,3 @@ nav{
         grid-template-columns: 1fr;
     }
 }
-
-
