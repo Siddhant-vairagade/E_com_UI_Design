@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUFFKART E-Commerce Website</title>
+    <!-- icons  -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Stylesheet File -->
+    <link rel="stylesheet" href="projectstyle.css" />
+</head>
+
+<body onload="load()">
+    <!-- promo -->
+    <div class="PROMO">
+        <span class="scolor">
+            <img src="https://img.icons8.com/material-outlined/24/000000/sparkling.png" />
+            Get 25% OFF This Diwali
+            <img src="https://img.icons8.com/material-outlined/24/000000/sparkling.png" />
+        </span>
+    </div>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="navigation flex">
+                <div class="hat">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="logo">
+                    <h2>PUFFKART</h2>
+                </div>
+                <div class="menu">
+                    <div class="top">
+                        <span class="close">Close<i class="bx bx-x"> </i></span>
+                    </div>
+                    <ul class="nav-list flex">
+                        <li class="nav-items">
+                            <a href="" class="nav-link color" >HOME</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="" class="nav-link">ABOUT US</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="" class="nav-link">CONTACT</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="" class="nav-link " >LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons flex">
+                    <div><i class="bx bx-search"></i></div>
+                    <div><i class="bx bx-user"></i></div>
+                    <div><i class="bx bx-heart"></i></div>
+                    <div><i class="bx bx-shopping-bag"></i>
+                        <span class="align-center">0</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Image -->
+        <div class="act">
+            <div class="actcontent flex container">
+                <div class="full">
+                    <img class="imgs" src="main.jpg" alt="girl with shopping bag">
+                    <span class="sub">GET YOUR DIWALI COLLECTIONS</span>
+                    <h1 class="heading">
+                        Up to
+                        <span class="color">70%<br>
+                            Discount</span>
+                        on This<br>
+                        Diwali Festival
+                    </h1>
+                    <h3>From 17th Oct to 26th Oct</h3>
+                    <a href="" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slider container">
+            <div class="slide">
+                
+                <img class="imgs" src="main.jpg" alt="girl with shopping bag">
+                
+            </div>
+            <div class="slide">
+                
+                <img class="imgs" src="pop7.jpg" alt="">
+            
+            </div>
+            <div class="slide">
+                
+                <img class="imgs" src="pop5.jpg" alt="">
+        
+            </div>
+        </div>
+        <a onclick="goslide(-1)" class="pre">&#10094</a>
+        <a onclick="goslide(1)" class="next">&#10095</a>
+    </header>
+    <!-- section -->
+    
+    <section class="section1 serv">
+        <!-- services -->
+        <div class="serv-cen container">
+            <div class="service">
+                <span class="icon"><i class="bx bx-purchase-tag"></i></span>
+                <h3>Free Shipping</h3> <span class="text"> At 2000/- per order</span>
+            </div>
+
+            <div class="service">
+                <span class="icon"><i class="bx bx-gift"></i></span>
+                <h3>Security Payment</h3>
+                <span class="text"> Trusted by 1m+ customers </span>
+            </div>
+
+            <div class="service">
+                <span class="icon"><i class="bx bx-book-reader"></i></span>
+                <h3>10-Day Return</h3>
+                <span class="text">Shop with confidence</span>
+            </div>
+
+            <div class="service">
+                <span class="icon"><i class="bx bx-headphone"></i></span>
+                <h3>24/7 Support</h3>
+                <span class="text"> Delivered at your doorstep</span>
+            </div>
+
+        </div>
+    </section>
+    <section class="section">
+        <div class="title">
+            <h1> <span class="color"> New </span> Arrivals</h1>
+        </div>
+        <div class="product-cen container">
+            <div class="product">
+                <div class="img-cov">
+                    <img src="product1.jpg" alt="Iphone12 pro max image">
+                </div>
+                <p>Apple Iphone12 pro max</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>1,12,500</i>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-cov">
+                    <img src="product2.jpg"
+                        alt="Alienware m15(R3) 15.6-inch Gaming Laptop (10th gen core i7-16gb/512gb ssd/windows 10 home and MS Office/6GB NVIDIA GTX 1660 Ti Graphics), Lunar Light)">
+                </div>
+                <p>Alienware m15(R3) 15.6-inch Gaming Laptop (Lunar Light)</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>2,22,500</i>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-cov">
+                    <img src="https://www.hmv.me/wp-content/uploads/2020/10/apwa.jpg" alt="Apple watch series 6">
+                </div>
+                <p>Apple Watch Series 6 and Apple Watch SE </p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>52,500</i>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-cov">
+                    <img src="https://photos5.appleinsider.com/gallery/39218-75044-AirPods-Max-colors-xl.png"
+                        alt="Apple Airpods Max">
+                </div>
+                <p>Apple Airpods Max</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>59,900</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Category -->
+    <section class="section">
+        <div class="title">
+            <h1><span class="color">Shop By </span>Categories</h1>
+        </div>
+
+        <div class="cate container">
+            <div class="items item1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3Qn0_PmQ2sLrlp_tGYMvVrXXMNjyyoLtZA&usqp=CAU"
+                    alt="Books">
+            </div>
+            <div class="items item2">
+                <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/08113628/cellphone-device-electronics-699122.jpg"
+                    alt="Mobiles">
+            </div>
+            <div class="items item3">
+                <img src="https://www.fashionremix.com/wp-content/uploads/2019/12/hot-top.jpg" alt="Clothes">
+            </div>
+
+            <div class="items item4">
+                <img src="https://www.pngitem.com/pimgs/m/61-612916_transparent-home-appliances-png-home-appliances-png-png.png"
+                    alt="Electronics and Home Appliances">
+            </div>
+            <div class="items item5">
+                <img src="https://cdn.cdnparenting.com/articles/2018/09/15-beauty-products-you-dont-need-to-waste-your-money-on.jpg"
+                    alt="Beauty Products">
+            </div>
+        </div>
+    </section>
+    <!-- Popular Products -->
+    <section class="section">
+        <div class="title">
+            <h1><span class="color">Popular </span>Products</h1>
+        </div>
+        <div class="product-cen container">
+            <div class="product">
+                <div class="img-cov">
+                    <img src="product2.jpg"
+                        alt="Alienware m15(R3) 15.6-inch Gaming Laptop (10th gen core i7-16gb/512gb ssd/windows 10 home and MS Office/6GB NVIDIA GTX 1660 Ti Graphics), Lunar Light)">
+                </div>
+                <p>Alienware m15(R3) 15.6-inch Gaming Laptop (Lunar Light)</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>2,22,500</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop2.png" alt="oneplus 8T">
+                </div>
+                <p>OnePlus 8T 5g (Lunar Silver 12Gb RAM,256 Storage)</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>41,999</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop3.png" alt="Mi11 ultra ">
+                </div>
+                <p>Xiaomi Mi 11 Ultra (12Gb+512Gb)</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>69,999</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop4.jpg" alt="Samsung Galaxy Buds">
+                </div>
+                <p>Samsung Galaxy Buds Pro</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>15,990</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop5.jpg" alt="Boat Rockerz 450 On-Ear Headphones">
+                </div>
+                <p>Boat Rockerz 450 On-Ear Headphones</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>1,499</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop7.jpg" alt="Rebel Ideas Book">
+                </div>
+                <p>Rebel Ideas By Matthew Syed</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>450</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop6.jpg" alt="Morphe x James Charles Palette">
+                </div>
+                <p>Morphe x James Charles Palette</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>1,299</i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="img-cov">
+                    <img src="pop1.jpg" alt="Samsung spacemax refrigerator">
+                </div>
+                <p>Samsung Spacemax Refrigerator 675L</p>
+                <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <div class="price">
+                    <i class='bx bx-rupee'>1,74,990</i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-cen">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Brands</a>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-cen">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-cen">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">blogletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-cen">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span><i class='bx bx-map'></i></span>
+                        42/43 Dream House, Walkers street, 7131 California, USA
+                    </div>
+                    <div>
+                        <span><i class='bx bx-mail-send'></i></span>
+                        Puffkart@gmail.com
+                    </div>
+                    <div>
+                        <span><i class='bx bxs-phone-call'></i></span>
+                        461-867-5316
+                    </div>
+                    <div>
+                        <span><i class='bx bxs-paper-plane'></i></span>
+                        Dream City, USA
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- JavaScript File -->
+    <script src="projectoperation.js"></script>
+</body>
+
+</html>
