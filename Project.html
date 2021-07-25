@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Description" content="Biggest online store for Mobiles, Fashion,Clothes,Shoes,Electronics,earphones,Home Appliances, Books, Jewelry, Home, Furniture, Sports, Beauty ; Personal Care, Grocery and more! Find the largest selection from all brands at the prices. Payment - COD, EMI, Credit card, Debit card ; more." />
-    <meta name="Keywords" content="Online Shopping ,online Shopping store,Mobiles, Fashion,Clothes,Shoes,Electronics,earphones,Home Appliances, Books, Jewelry,Furniture, Sports, Beauty, Online Shopping Site,Buy Online,Shop Online,Books,Online Shopping,puffkart" />
+    <meta name="Description"
+        content="Biggest online store for Mobiles, Fashion,Clothes,Shoes,Electronics,earphones,Home Appliances, Books, Jewelry, Home, Furniture, Sports, Beauty ; Personal Care, Grocery and more! Find the largest selection from all brands at the prices. Payment - COD, EMI, Credit card, Debit card ; more." />
+    <meta name="Keywords"
+        content="Online Shopping ,online Shopping store,Mobiles, Fashion,Clothes,Shoes,Electronics,earphones,Home Appliances, Books, Jewelry,Furniture, Sports, Beauty, Online Shopping Site,Buy Online,Shop Online,Books,Online Shopping,puffkart" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUFFKART E-Commerce Website</title>
     <!-- icons  -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- Stylesheet File -->
-    <link rel="stylesheet" href="projectstyle.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body onload="load()">
@@ -57,14 +59,26 @@
                 </div>
                 <div class="icons flex">
                     <div><i class="bx bx-search"></i></div>
-                    <div><i class="bx bx-user"></i></div>
+                    <div><i class="bx bx-user" id="log"></i></div>
                     <div><i class="bx bx-heart"></i></div>
                     <div><i class="bx bx-shopping-bag"></i>
-                        <span class="align-center">0</span>
+                    <span class="align-center">0</span>
                     </div>
                 </div>
             </div>
         </nav>
+        <!-- Model box -->
+        <div class="main" id="model">
+            <div class="con">
+                <span class="close" id="close"><i class="bx bx-x"> </i></span>
+                <caption>Enter Registered Email :</caption><br>
+                <input type="email" name="email" id="e"><br>
+                <caption>Enter Password :</caption><br>
+                <input type="password" name="pass" id="p"><br>
+                <div class="but"><button class="btn1" onclick="Login()">Login</button>
+                </div>
+            </div>
+        </div>
         <!-- Main Image -->
         <div class="act">
             <div class="actcontent flex container">
@@ -89,7 +103,7 @@
                 <img class="imgs" src="main.jpg" alt="girl with shopping bag">
             </div>
             <div class="slide">
-                <img class="imgs" src="pop7.jpg" alt="">
+                <img class="imgs" src="pop6.jpg" alt="">
             </div>
             <div class="slide">
                 <img class="imgs" src="pop5.jpg" alt="">
@@ -102,29 +116,29 @@
     <section class="section1 serv">
         <!-- services -->
         <div class="serv-cen container">
+            
             <div class="service">
                 <span class="icon"><i class="bx bx-purchase-tag"></i></span>
                 <h3>Free Shipping</h3> <span class="text"> At 2000/- per order</span>
             </div>
-
+            
             <div class="service">
                 <span class="icon"><i class="bx bx-gift"></i></span>
                 <h3>Security Payment</h3>
                 <span class="text"> Trusted by 1m+ customers </span>
             </div>
-
+            
             <div class="service">
                 <span class="icon"><i class="bx bx-book-reader"></i></span>
                 <h3>10-Day Return</h3>
                 <span class="text">Shop with confidence</span>
             </div>
-
+            
             <div class="service">
                 <span class="icon"><i class="bx bx-headphone"></i></span>
                 <h3>24/7 Support</h3>
                 <span class="text"> Delivered at your doorstep</span>
             </div>
-
         </div>
     </section>
     <!-- NEW ARRIVALS -->
@@ -209,16 +223,18 @@
         <div class="title" id="shop">
             <h1><span class="color">Shop By </span>Categories</h1>
         </div>
-
         <div class="cate container">
+            
             <div class="items item1">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3Qn0_PmQ2sLrlp_tGYMvVrXXMNjyyoLtZA&usqp=CAU"
                     alt="Books">
             </div>
+            
             <div class="items item2">
                 <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/08113628/cellphone-device-electronics-699122.jpg"
                     alt="Mobiles">
             </div>
+            
             <div class="items item3">
                 <img src="https://www.fashionremix.com/wp-content/uploads/2019/12/hot-top.jpg" alt="Clothes">
             </div>
@@ -227,6 +243,7 @@
                 <img src="https://www.pngitem.com/pimgs/m/61-612916_transparent-home-appliances-png-home-appliances-png-png.png"
                     alt="Electronics and Home Appliances">
             </div>
+            
             <div class="items item5">
                 <img src="https://cdn.cdnparenting.com/articles/2018/09/15-beauty-products-you-dont-need-to-waste-your-money-on.jpg"
                     alt="Beauty Products">
@@ -239,6 +256,7 @@
             <h1><span class="color">Popular </span>Products</h1>
         </div>
         <div class="product-cen container">
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="product2.jpg"
@@ -256,6 +274,7 @@
                     <i class='bx bx-rupee'>2,22,500</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="pop2.png" alt="oneplus 8T">
@@ -272,6 +291,7 @@
                     <i class='bx bx-rupee'>41,999</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="pop3.png" alt="Mi11 ultra ">
@@ -288,6 +308,7 @@
                     <i class='bx bx-rupee'>69,999</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="pop4.jpg" alt="Samsung Galaxy Buds">
@@ -304,6 +325,7 @@
                     <i class='bx bx-rupee'>15,990</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="pop5.jpg" alt="Boat Rockerz 450 On-Ear Headphones">
@@ -320,6 +342,7 @@
                     <i class='bx bx-rupee'>1,499</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="pop6.jpg" alt="Rebel Ideas Book">
@@ -336,6 +359,7 @@
                     <i class='bx bx-rupee'>450</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="data:image/jpeg;base64,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"
@@ -353,6 +377,7 @@
                     <i class='bx bx-rupee'>1,299</i>
                 </div>
             </div>
+            
             <div class="product">
                 <div class="img-cov">
                     <img src="https://images.samsung.com/is/image/samsung/ie-american-style-rs68n8220sl-rs68n8220sl-eu-frontsilver-129101310?$720_576_PNG$"
@@ -413,7 +438,6 @@
                     <div>
                         <span><i class='bx bxs-phone-call'></i></span>
                         <a class="colorg" href="tel:461-867-5316">461-867-5316</a>
-
                     </div>
                     <div>
                         <span><i class='bx bxs-paper-plane'></i></span>
@@ -425,7 +449,7 @@
         </div>
     </footer>
     <!-- JavaScript File -->
-    <script src="projectoperation.js"></script>
+    <script src="operation.js"></script>
 </body>
 
 </html>
