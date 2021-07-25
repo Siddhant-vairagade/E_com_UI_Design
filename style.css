@@ -210,7 +210,52 @@ nav{
         left: 0;
     }
 } 
+/* Model Box */
+
+.main{
+   
+    display: none;
+    position: absolute;  
+    top: 20%;          
+    padding-top: 2%;
+
+    z-index: 1;
+    width: 100%;
+    height: 40vh;  
+}
+.con{
+    padding: 3rem;
+    position: relative;
+    background-color: aqua;
+    margin: 0 auto;
+    width: 20%;
+    border: 3px solid #f3327c;
+}
+.close{
+    color: #f3327c;
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.close:hover{
+    color: darkred;
+}
+input{
+    border: none;
+    border-bottom: 3px solid #f3327c;
+}
+.but{
+    padding-top: 1rem;
+    width: 70%;
+    margin: auto;
+}
+.btn1{
+    width: 100%;
+    background-color: #f3327c;
+    cursor: pointer;
+}
 /* header image */
+
 .act{
     background-color: beige;
     z-index: 0;
@@ -525,5 +570,3 @@ nav{
         grid-template-columns: 1fr;
     }
 }
-
-
